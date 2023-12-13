@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body{
+    background-color: rgb(54, 53, 53)
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    width: 1600px;
+    height: 1000px;
+    background: linear-gradient(45deg, black, rgb(34, 18, 37));
+    border-radius: 20px;
+    display: flex;
+}
+
+li{
+    background-color: rgb(94, 4, 94);
+    max-width: max-content;
+    margin: 15px 0px 10px 15px;
+    padding: 10px;
+    border-radius: 20px;
+    color:  white;
+    list-style: none;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#User{
+width: 300px;
+height: 30px;
+margin-top: 10px;
+border-radius: 10px;
+margin-right: 20px;
+font-size: 20px;
+color: black;
+padding: 10px;
+}
+
+#Texto{
+    width: 700px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+#Botão{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(58, 2, 58);
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#Botão:hover{
+    cursor:grab;
+}
